@@ -155,7 +155,7 @@ class _ArnaBaseWidgetState extends State<ArnaBaseWidget>
     }
     _actions = <Type, Action<Intent>>{
       ActivateIntent:
-          CallbackAction<Intent>(onInvoke: (final _) => _handleTap())
+          CallbackAction<Intent>(onInvoke: (final _) => _handleTap()),
     };
     _shortcuts = const <ShortcutActivator, Intent>{
       SingleActivator(LogicalKeyboardKey.enter): ActivateIntent(),

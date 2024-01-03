@@ -676,7 +676,6 @@ class _ArnaAppState extends State<ArnaApp> {
         shortcuts: widget.shortcuts,
         actions: widget.actions,
         restorationScopeId: widget.restorationScopeId,
-        useInheritedMediaQuery: widget.useInheritedMediaQuery,
       );
     }
 
@@ -715,7 +714,6 @@ class _ArnaAppState extends State<ArnaApp> {
       shortcuts: widget.shortcuts,
       actions: widget.actions,
       restorationScopeId: widget.restorationScopeId,
-      useInheritedMediaQuery: widget.useInheritedMediaQuery,
     );
   }
 

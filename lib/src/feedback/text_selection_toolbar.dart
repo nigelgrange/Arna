@@ -34,6 +34,9 @@ class ArnaTextSelectionToolbar extends StatelessWidget {
     required final VoidCallback? onPaste,
     required final VoidCallback? onSelectAll,
     required final VoidCallback? onLiveText,
+    required final VoidCallback? onLookup,
+    required final VoidCallback? onSearchWeb,
+    required final VoidCallback? onShare,
     required this.anchors,
   })  : children = null,
         buttonItems = EditableText.getEditableButtonItems(
@@ -43,6 +46,9 @@ class ArnaTextSelectionToolbar extends StatelessWidget {
           onPaste: onPaste,
           onSelectAll: onSelectAll,
           onLiveTextInput: onLiveText,
+          onLookUp: onLookup,
+          onSearchWeb: onSearchWeb,
+          onShare: onShare,
         );
 
   /// Create an instance of [ArnaTextSelectionToolbar] with the default children
